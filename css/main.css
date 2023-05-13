@@ -10786,15 +10786,6 @@ body {
   padding: 60px 0;
 }
 
-@media (max-width: 768px) {
-  .hero img {
-    max-width: 200px;
-  }
-  .with-bg img {
-    margin-top: 40px;
-    display: block;
-  }
-}
 @media (min-width: 600px) {
   .container {
     max-width: 960px;
@@ -10844,10 +10835,11 @@ p, li {
   background-color: #FAF4FE;
 }
 
-.img-col-left {
-  padding-right: 50px;
+@media (min-width: 768px) {
+  .img-col-left {
+    padding-right: 50px;
+  }
 }
-
 .projects-header {
   margin-bottom: 50px;
 }
@@ -10911,4 +10903,17 @@ ul {
 hr {
   margin-top: 50px;
   border-color: rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 768px) {
+  .hero img {
+    max-width: 200px;
+  }
+  .with-bg img {
+    margin-top: 40px;
+    display: block;
+  }
+  .container {
+    padding: 0 30px;
+  }
 }/*# sourceMappingURL=main.css.map */
