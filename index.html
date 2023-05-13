@@ -191,13 +191,15 @@
         const closeNavBtn = document.getElementById('close-nav-btn');
         const mobileNav = document.getElementById('mobile-nav');
 
-        openNavBtn.addEventListener('click', function () {
+        openNavBtn.addEventListener('click', function (e) {
+            e.preventDefault();
             mobileNav.classList.add('d-flex');
             mobileNav.classList.remove('d-none');
             closeNavBtn.classList.remove('d-none');
         });
 
-        closeNavBtn.addEventListener('click', function () {
+        closeNavBtn.addEventListener('click', function (e) {
+            e.preventDefault();
             mobileNav.classList.remove('d-flex');
             mobileNav.classList.add('d-none');
             closeNavBtn.classList.add('d-none');
