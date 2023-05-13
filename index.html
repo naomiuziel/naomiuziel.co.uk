@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <a href="#" class="mobile-nav-btn mobile-nav-btn-close d-none" id="close-nav-btn">
+        <svg id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M437.5,386.6L306.9,256l130.6-130.6c14.1-14.1,14.1-36.8,0-50.9c-14.1-14.1-36.8-14.1-50.9,0L256,205.1L125.4,74.5  c-14.1-14.1-36.8-14.1-50.9,0c-14.1,14.1-14.1,36.8,0,50.9L205.1,256L74.5,386.6c-14.1,14.1-14.1,36.8,0,50.9  c14.1,14.1,36.8,14.1,50.9,0L256,306.9l130.6,130.6c14.1,14.1,36.8,14.1,50.9,0C451.5,423.4,451.5,400.6,437.5,386.6z"/></svg>
+    </a>
+
+    <nav class="mobile-nav text-center d-none justify-content-center align-items-center" id="mobile-nav">
+        <ul>
+            <li>
+                <a class="nav-link" href="#about">About</a>
+            </li>
+
+            <li>
+                <a class="nav-link" href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <div class="row d-flex align-items-center hero-first-row">
+                <div class="col-6"> 
+                    <a href="#">
+                        <img src="img/logo.svg" alt="Naomi Uziel Logo">
+                    </a>
+                </div>
+
+                <div class="col-6">
+                    <a href="#" class="d-md-none mobile-nav-btn" id="open-nav-btn">
+                        <svg height="32px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg>
+                    </a>
+
+                    <ul class="nav justify-content-end d-none d-md-flex">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row d-flex align-items-center">
+                <div class="col-md-6 d-flex justify-content-center justify-content-md-end order-md-2">
+                    <img src="img/profile-pic.png" alt="Profile Picture">
+                </div>
+
+                <div class="col-md-6 text-center text-md-start">
+                    <h1>Hi, I'm Naomi.</h1>
+                    <p>I'm an aspiring junior software engineer with a passion for creating intuitive and user-friendly web applications using ReactJS.</p>
+                    <a href="#about" class="btn btn-light">About me</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section" id="about">
+        <div class="container text-center">
+            <h2>About me</h2>
+            <p>As a former chemist with a master's degree from Newcastle University and eight years of industry experience, I have a strong foundation in critical thinking and problem-solving. My expertise in analytical chemistry and quality control has equipped me with the ability to approach complex issues with a meticulous attention to detail.</p>
+            <p>After working in the industry for several years, I have decided to pursue my passion for software engineering. I am now seeking a junior software engineering position where I can apply my problem-solving skills to develop innovative solutions. My background in chemistry has given me a unique perspective on software engineering, and I am excited to bring my expertise to a new field.</p>
+            <p>When I’m not in the lab or at my desk, I’m doing one of the many things I enjoy such as travelling, cooking, hiking, or reading.</p>
+            <p>
+                <a href="#projects">
+                    Scroll down to view some of my projects
+                </a>
+            </p>
+        </div>
+    </section>
+
+    <section class="with-bg" id="projects">
+        <div class="container">
+            <div class="text-center projects-header">
+                <h2>My projects</h2>
+                <p>Click on screenshots to enlarge</p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 order-md-2">
+                    <h3>Weather dashboard</h3>
+                    <p>A snappy weather dashboard that utilises the OpenWeatherMap API to allow viewing of current weather conditions across multiple cities all in one centralised and simple view.</p>
+                    <p><strong>Tech used:</strong> Bootstrap 5, ReactJS, External APIs</p>
+                    <a href="https://github.com/naomiuziel/weather-dashboard" target="_blank" class="btn btn-light">View repository</a>
+                </div>
+
+                <div class="col-md-6 img-col-left">
+                    <a href="img/weather-dashboard.png" target="_blank">
+                        <img src="img/weather-dashboard.png" alt="weather dashboard image" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+
+            <hr class="d-md-none">
+
+            <div class="row invoice-builder-header d-flex align-items-center">
+                <div class="col-md-6">
+                    <h3>Invoice builder</h3>
+                    <p>A ReactJS application that allows users to build standard invoices using a responsive inline user interface with calculations taking place in real time.</p>
+                    <p> <strong>Tech used:</strong> Bootstrap 5, ReactJS, JSON Server</p>
+                    <a href="https://github.com/naomiuziel/invoicer" class="btn btn-light" target="_blank">View repository</a>
+                </div>
+
+                <div class="col-md-6 img-col-right">
+                    <a href="img/invoice-app-b.png" target="_blank" class="d-inline-block">
+                        <img src="img/invoice-app-b.png" alt="invoice app image 2" class="img-fluid">
+                    </a>
+                    <!-- <a href="img/invoice-app-a.png" target="_blank">
+                        <img src="img/invoice-app-a.png" alt="invoice app image 1" class="img-fluid">
+                    </a> -->
+                </div>
+            </div>
+
+            <hr class="d-md-none">
+
+            <div class="row to-do-app-header d-flex align-items-center">
+                <div class="col-md-6 order-md-2">
+                    <h3>Todo List</h3>
+                    <p>The obligatory todo list, and my first public repository on GitHub!</p>
+                    <p><strong>Tech used:</strong> ReactJS, Custom CSS</p>
+                    <a href="https://github.com/naomiuziel/react-todo" target="_blank" class="btn btn-light">View repository</a>
+                </div>
+
+                <div class="col-md-6 img-col-left">
+                    <a href="img/to-do-app.png" target="_blank">
+                        <img src="img/to-do-app.png" alt="To do app image" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+
+            <hr class="d-md-none">
+
+            <div class="row static-website-header d-flex align-items-center">
+                <div class="col-md-6">
+                    <h3>Static brochure website</h3>
+                    <p>My contribution to a local startup. A beautiful, simple, mobile responsive brochure website to advertise the services of this startup.</p>
+                    <p><strong>Tech used:</strong> HTML5, CSS3, Vanilla JavaScript</p>
+                </div>
+
+                <div class="col-md-6 img-col-right">
+                    <a href="img/tablesoft-fullsize.png" target="_blank">
+                        <img src="img/table-soft-website.png" alt="Tablesoft webste" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <div class="container text-center">
+            <h2>Contact me</h2>
+            <p>Thank you for visiting my personal website! If you have any questions or would like to connect with me, I would love to hear from you. You can reach me via: </p>
+            <ul>
+                <li>
+                    Email: <a href="mailto:naomiuziel1@gmail.com">naomiuziel1@gmail.com</a>
+                </li>
+                <li>
+                    LinkedIn: <a href="https://www.linkedin.com/in/naomi-uziel-06626396/" target="_blank">LinkedIn profile</a>
+                </li>
+            </ul>
+
+            <p>To view some examples of my code visit my GitHub profile: <a href="https://github.com/naomiuziel">@naomiuziel</a></p>
+            <p>I'm excited about the prospect of new opportunities and am always looking to network with other professionals in the industry.</p>
+            <p>I'm always open to new ideas and collaborations, so please don't hesitate to get in touch. Whether you have a potential job opportunity or just want to say hello, I look forward to hearing from you.</p>
+            <p><a href="#">Back to top</a></p>
+           
+            <p>Copyright &copy; 2023 - Naomi Uziel</p>
+        </div>
+    </section>
+
+    <script>
+        const openNavBtn = document.getElementById('open-nav-btn');
+        const closeNavBtn = document.getElementById('close-nav-btn');
+        const mobileNav = document.getElementById('mobile-nav');
+
+        openNavBtn.addEventListener('click', function () {
+            mobileNav.classList.add('d-flex');
+            mobileNav.classList.remove('d-none');
+            closeNavBtn.classList.remove('d-none');
+        });
+
+        closeNavBtn.addEventListener('click', function () {
+            mobileNav.classList.remove('d-flex');
+            mobileNav.classList.add('d-none');
+            closeNavBtn.classList.add('d-none');
+        });
+    </script>
+</body>
+</html>
